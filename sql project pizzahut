@@ -1,4 +1,4 @@
-🗂️ Database Schema
+ Database Schema
 
 Database name: pizzahut
 
@@ -13,7 +13,7 @@ Relationships
 orders (order_id) ──< order_details (order_id)
 order_details (pizza_id) >── pizzas (pizza_id)
 pizzas (pizza_type_id) >── pizza_types (pizza_type_id)
-❓ Business Questions & Solutions
+ Business Questions & Solutions
 
 
 1. Total number of orders placed
